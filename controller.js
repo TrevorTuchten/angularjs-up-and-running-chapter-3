@@ -1,5 +1,6 @@
-// file: chapter3/contoller.js
-angular.module('notesApp', []).controller('ListCtrl', [function() {
+// file: chapter3/controller.js
+angular.module('notesApp', [])
+		.controller('ListCtrl', [function() {
 
 	var self = this;
 	self.items = [

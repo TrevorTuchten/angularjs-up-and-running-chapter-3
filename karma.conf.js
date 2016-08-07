@@ -21,7 +21,7 @@ module.exports = function(config) {
 	],
 
 	// list of files / patterns to exclude
-	sxclude: [],
+	exclude: [],
 
 	// web server port
 	port: 8080,
